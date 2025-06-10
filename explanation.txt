@@ -1,0 +1,68 @@
+## String Functions
+
+1. ft_strlen - Calculates the length of a string
+2. ft_strcpy - Copies a string
+3. ft_strcat - Concatenates two strings
+4. ft_strlcpy - Size-bounded string copying
+5. ft_strlcat - Size-bounded string concatenation
+6. ft_strchr - Locates first occurrence of a character in a string
+7. ft_strrchr - Locates last occurrence of a character in a string
+8. ft_strcmp - Compares two strings
+9. ft_strncmp - Compares a specified number of characters of two strings
+10. ft_strnstr - Locates a substring in a string, with a maximum length
+11. ft_strdup - Duplicates a string
+12. ft_substr - Creates a substring from a string
+13. ft_strjoin - Joins two strings
+14. ft_strtrim - Trims specified characters from the beginning and end of a string
+15. ft_split - Splits a string into an array of substrings based on a delimiter
+16. ft_strmapi - Applies a function to each character of a string, creating a new string
+17. ft_striteri - Applies a function to each character of a string with its index
+
+## Memory Functions
+
+1. ft_memset - Fills memory with a constant byte
+2. ft_bzero - Zeros a byte string
+3. ft_memcpy - Copies memory area
+4. ft_memmove - Copies memory area, handling overlapping memory
+5. ft_memchr - Locates byte in byte string
+6. ft_memcmp - Compares byte string
+7. ft_calloc - Allocates memory for an array and initializes all bytes to zero
+
+## Character Type Functions
+
+1. ft_isalpha - Checks for an alphabetic character
+2. ft_isdigit - Checks for a digit (0 through 9)
+3. ft_isalnum - Checks for an alphanumeric character
+4. ft_isascii - Checks whether c fits into the ASCII character set
+5. ft_isprint - Checks for any printable character
+6. ft_toupper - Converts a lower-case letter to the corresponding upper-case letter
+7. ft_tolower - Converts an upper-case letter to the corresponding lower-case letter
+
+## Conversion Functions
+
+1. ft_atoi - Converts a string to an integer
+2. ft_itoa - Converts an integer to a string
+
+## Output Functions
+
+1. ft_putchar - Outputs a character
+2. ft_putstr - Outputs a string
+3. ft_putnbr - Outputs an integer
+4. ft_putchar_fd - Outputs a character to a specified file descriptor
+5. ft_putstr_fd - Outputs a string to a specified file descriptor
+6. ft_putendl_fd - Outputs a string followed by a newline to a specified file descriptor
+7. ft_putnbr_fd - Outputs an integer to a specified file descriptor
+
+## Utility Functions
+
+1. ft_swap - Swaps the values of two integers
+
+## Relation to Piscine Exercises
+
+Many of these functions are likely from previous Piscine exercises, particularly:
+
+- Basic character functions ( ft_isalpha , ft_isdigit , etc.) are typically from early Piscine days (C01/C02)
+- String manipulation functions like ft_strlen , ft_strcpy , ft_strcat are usually from C03/C04
+- Memory functions like ft_memset , ft_bzero are often introduced in C05/C06
+- Output functions like ft_putchar , ft_putstr are typically from early exercises (C00/C01)
+- ft_swap is a very basic function usually taught in the first few days of Piscine
